@@ -134,6 +134,30 @@ body {
 
 /*
   ======================================
+  Rows
+  ======================================
+*/
+
+.row,
+.row-alt {
+  min-width: 960px;
+}
+
+.row {
+  background: #fff;
+  padding: 66px 0 44px 0;
+}
+
+.row-alt {
+  color: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f1f6d3);
+  background:    -moz-linear-gradient(to right, #a1d3b0, #f1f6d3);
+  background:         linear-gradient(to right, #a1d3b0, #f1f6d3);
+  padding: 44px 0 22px 0;
+}
+
+/*
+  ======================================
   Typography
   ======================================
 */
@@ -190,6 +214,21 @@ cite, em {
   color: #a9b2b9;
 }
 
+/* 
+  ======================================
+  Leads 
+  ======================================
+*/
+
+.lead {
+  text-align: center;
+}
+
+.lead p {
+  color: #5d5d5d;
+  font-size: 21px;
+  line-height: 33px;
+}
 
 /* 
   ======================================
@@ -259,7 +298,7 @@ p a {
   padding: 40px 0 22px 0;
   font-size: 48px;
   line-height: 44px;
-  font-weight: 300;
+  font-weight: 100;
   letter-spacing: .5px;
   text-transform: uppercase;
 }
@@ -279,8 +318,18 @@ p a {
   text-align: right;
 }
 
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
 
-/* 
+.nav li:last-child {
+  margin-right: 0;
+}
+
+
+/*
   ======================================
   Primary footer 
   ======================================
@@ -317,7 +366,39 @@ p a {
 
 .hero p {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 100;
+}
+
+.teaser img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+}
+
+/* 
+  ======================================
+  Speakers
+  ======================================
+*/
+
+.speaker {
+  margin-bottom: 44px;
+}
+
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.speaker-info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
 }
 
 /* 
