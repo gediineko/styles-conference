@@ -214,6 +214,16 @@ cite, em {
   color: #a9b2b9;
 }
 
+sup {
+  font-size: 70%;
+  vertical-align: super;
+}
+
+sub {
+  font-size: 70%;
+  vertical-align: sub;
+}
+
 /* 
   ======================================
   Leads 
@@ -403,17 +413,18 @@ p a {
 
 /* 
   ======================================
-  Custom 
+  Venue 
   ======================================
 */
 
-
-sup {
-  font-size: 70%;
-  vertical-align: super;
+.venue-theatre {
+  margin-bottom: 66px;
 }
 
-sub {
-  font-size: 70%;
-  vertical-align: sub;
+.venue-hotel {
+  margin-bottom: 22px;
+}
+
+.venue-map {
+  height: 264px;
 }
