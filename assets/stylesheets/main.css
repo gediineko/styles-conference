@@ -428,3 +428,14 @@ p a {
 .venue-map {
   height: 264px;
 }
+
+/* 
+  ======================================
+  Resgister
+  ======================================
+*/
+
+.why-attend {
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
